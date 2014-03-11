@@ -1,0 +1,22 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/CameraScript.js">
+    <Files>
+      <File FileName="../Trabajo de casa03/Raycast/Assets/nivel.js" Line="1" Column="1" />
+      <File FileName="../Trabajo de casa03/Raycast/Assets/camara.js" Line="10" Column="27" />
+      <File FileName="Assets/Script/LevelController.js" Line="76" Column="33" />
+      <File FileName="Assets/Script/plataforma.js" Line="21" Column="29" />
+      <File FileName="Assets/Script/LevelControllerNew.js" Line="25" Column="31" />
+      <File FileName="Assets/Script/Enemigoreal.js" Line="36" Column="30" />
+      <File FileName="Assets/Script/CameraScript.js" Line="14" Column="67" />
+      <File FileName="Assets/Script/FondoScript.js" Line="11" Column="55" />
+      <File FileName="Assets/Script/Personaje.js" Line="29" Column="34" />
+      <File FileName="Assets/Script/Laser.js" Line="23" Column="29" />
+      <File FileName="Assets/Script/LanzarLaser.js" Line="9" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

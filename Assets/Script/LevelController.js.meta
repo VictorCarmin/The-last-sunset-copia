@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 82dc80b2fc5764bd1a4063e3c3052001
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - PlatPeq: {fileID: 100000, guid: 6089bb54e5a03451f80a17eae742092b, type: 2}
+  - PlatGra: {fileID: 100000, guid: 95b79aabecbd14e50a76cb36fbcef448, type: 2}
+  - PlatPeqEnem: {fileID: 100002, guid: 7922b00dc67ef4b2daf2943e28fd0734, type: 2}
+  - PlatGraEnem: {fileID: 100002, guid: 94a9f66a273ae4637814bf17ca5d0dc2, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
