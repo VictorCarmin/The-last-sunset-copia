@@ -95,7 +95,7 @@ function FixedUpdate(){
 */
 }
 function Morir(){
-	Application.LoadLevel("Scene");
+	Application.LoadLevel("e1");
 
 
 }
