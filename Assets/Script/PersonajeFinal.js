@@ -21,7 +21,11 @@ static var PuntuacionTotal : int;
 
 static var PuntuacionMaxima : int;
 
+static var carga: int;
+
 function Start () {
+
+		carga=5;
 
 		puntos = 0;
 		
@@ -34,6 +38,8 @@ function Start () {
 }
 
 function Update () {
+
+	Debug.Log(carga);
 	
 	Puntuacion();
  PuntuacionTotal = puntos;
@@ -89,7 +95,7 @@ function FixedUpdate(){
 */
 }
 function Morir(){
-	Application.LoadLevel("Scene");
+	Application.LoadLevel("e1");
 
 
 }
@@ -147,22 +153,26 @@ function OnCollisionExit(){
 		doblesalto=true;
 
 }
-function LanzarLaser(){
+/*function LanzarLaser(){
 
-if(Input.GetButtonDown("Fire1")){
- 	
- 		//Debug.Log("Laser");
- 	
- 		var aux : GameObject;
- 	
- 		aux = Instantiate (laser, transform.position, transform.rotation);
- 	
- 		aux.rigidbody.velocity = transform.TransformDirection (Vector3(0,0,velocidad));
- 	
- 		Physics.IgnoreCollision(aux.collider, transform.root.collider);
 
-}
-}
+
+	if(Input.GetButtonDown("Fire1")&&carga>=1){
+	 	
+	 		
+	 		//Debug.Log("Laser");
+	 	
+	 		var aux : GameObject;
+	 	
+	 		aux = Instantiate (laser, transform.position, transform.rotation);
+	 	
+	 		aux.rigidbody.velocity = transform.TransformDirection (Vector3(0,0,velocidad));
+	 	
+	 		Physics.IgnoreCollision(aux.collider, transform.root.collider);
+
+		
+	}
+}*/
 function Puntuacion(){
 
 		puntos = puntos + 1.5;

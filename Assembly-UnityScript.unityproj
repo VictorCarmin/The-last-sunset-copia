@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{87D96C3D-DA87-E992-232D-92BF442EA4E0}</ProjectGuid>
+	<ProjectGuid>{4BBD3CBE-19E7-A706-9E97-9069ECA8097F}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\BateriaScript.js" />
      <Compile Include="Assets\Script\CameraScript.js" />
      <Compile Include="Assets\Script\Enemigoreal.js" />
      <Compile Include="Assets\Script\Finalscore.js" />
@@ -65,7 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{3745424B-E2EF-C877-75D2-63E3C16CD2EE}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{A96EA69B-A045-BB63-269E-3DAB67FF1A5F}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
