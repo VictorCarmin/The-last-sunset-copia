@@ -1,10 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/GranTouch.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/PersonajeFinal.js">
     <Files>
-      <File FileName="Assets/Script/Personaje.js" Line="7" Column="1" />
-      <File FileName="Assets/Script/PersonajeFinal.js" Line="8" Column="7" />
-      <File FileName="Assets/Script/Finalscore.js" Line="19" Column="1" />
+      <File FileName="Assets/Script/Personaje.js" Line="1" Column="1" />
+      <File FileName="Assets/Script/PersonajeFinal.js" Line="42" Column="19" />
+      <File FileName="Assets/Script/Finalscore.js" Line="1" Column="1" />
       <File FileName="Assets/Script/GranTouch.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

@@ -10,7 +10,7 @@ public var velocidad = 500 ;
 	
 function Update () {
 
-	if (Input.GetButtonDown("Fire1")){
+	if (Input.GetButtonDown("Fire1")&&PersonajeFinal.carga>=1){
 	
 		var aux : GameObject;
 		
