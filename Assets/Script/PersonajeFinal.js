@@ -1,4 +1,8 @@
 ﻿#pragma strict
+public var monedas: GameObject;
+
+static var coins: int;
+
 var salto: boolean;
 
 var doblesalto : boolean;
@@ -24,7 +28,9 @@ static var PuntuacionMaxima : int;
 static var carga: int;
 
 function Start () {
-
+		
+		coins = 0;
+		
 		carga=5;
 
 		puntos = 0;
@@ -39,7 +45,9 @@ function Start () {
 
 function Update () {
 
-	Debug.Log(carga);
+	
+
+//	Debug.Log(carga);
 	
 	Puntuacion();
  PuntuacionTotal = puntos;
@@ -86,6 +94,8 @@ function Update () {
 
 
 function FixedUpdate(){
+
+	
 
  /*Puntuacion();
  PuntuacionTotal = puntos;
@@ -139,6 +149,7 @@ function OnCollisionEnter(other: Collision){
 		salto=true;
 		
 		doblesalto=false;
+		
 	
 		if( other.gameObject.name=="Enemigo"){
 	
@@ -146,6 +157,13 @@ function OnCollisionEnter(other: Collision){
 	}
 		
 }
+
+function OnTriggerEnter(other: Collider){
+	if( other.gameObject.name=="Coin"){
+		coins++;
+		}
+}
+
 function OnCollisionExit(){
 
 		salto=false;
@@ -182,5 +200,9 @@ function Puntuacion(){
 		puntostot.guiText.text = "PUNTOS TOTALES: "+PuntuacionTotal.ToString();
 		
 		puntosmax.guiText.text = "RECORD: "+PuntuacionMaxima.ToString();
+			
+//		Debug.Log(coins);
+		
+		monedas.guiText.text = "MONEDAS: "+coins.ToString();
 
 }

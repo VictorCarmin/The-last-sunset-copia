@@ -1,11 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/PersonajeFinal.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/LevelControllerNew.js">
     <Files>
-      <File FileName="Assets/Script/Personaje.js" Line="1" Column="1" />
-      <File FileName="Assets/Script/PersonajeFinal.js" Line="42" Column="19" />
-      <File FileName="Assets/Script/Finalscore.js" Line="1" Column="1" />
-      <File FileName="Assets/Script/GranTouch.js" Line="1" Column="1" />
+      <File FileName="Assets/Script/GirarMoneda.js" Line="17" Column="3" />
+      <File FileName="Assets/Script/plataforma.js" Line="11" Column="2" />
+      <File FileName="Assets/Script/LevelControllerNew.js" Line="35" Column="50" />
+      <File FileName="Assets/Script/Personaje.js" Line="34" Column="54" />
+      <File FileName="Assets/Script/PersonajeFinal.js" Line="204" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-public var plataformas= new GameObject[4];
+public var plataformas= new GameObject[8];
 public var frecuenciaPlataforma : float= 1.0;
 private var siguientePlataforma : float=0.0;
 var altura: int;
@@ -13,28 +13,31 @@ frecuenciaPlataforma=0.0;
 
 function FixedUpdate () {
 
+//	Debug.Log(Time.timeSinceLevelLoad);
 	
-	var random = Random.Range (0,4);
+	var random = Random.Range (0,8);
 	var plat : GameObject;
 	plat = plataformas[random];
 
 
-	if(Time.time>siguientePlataforma){
+	if(Time.timeSinceLevelLoad>siguientePlataforma){
 		plat = plataformas[random];
 		
+		Debug.Log("Instantiate");
+		Debug.Log(plat);
 		Instantiate(plat, Vector3(35,altura,0), plat.transform.rotation);
 		PosicionPlataforma();
-		siguientePlataforma= Time.time+ frecuenciaPlataforma;
+		siguientePlataforma= Time.timeSinceLevelLoad+ frecuenciaPlataforma;
 	}	
 	var tiempoPlataforma = Random.Range (0,3);
-	if(tiempoPlataforma==0){frecuenciaPlataforma=1.0;}
-	if(tiempoPlataforma==1){frecuenciaPlataforma=1.5;}
-	if(tiempoPlataforma==2){frecuenciaPlataforma=1.75;}
+	if(tiempoPlataforma==0){frecuenciaPlataforma=1.5;}
+	if(tiempoPlataforma==1){frecuenciaPlataforma=1.75;}
+	if(tiempoPlataforma==2){frecuenciaPlataforma=2.0;}
 }
 
 function PosicionPlataforma (){
 
-	Debug.Log(posicion);
+//	Debug.Log(posicion);
 	var posActual = posicion;
 	
 	if (posActual==0){ posicion0 ();}

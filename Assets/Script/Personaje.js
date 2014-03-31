@@ -9,11 +9,15 @@ static var puntos: int;
 
 public var puntosgui: GameObject;
 
+public var monedas: GameObject;
+
 public var laser : GameObject ;
 
 public var velocidad = 20 ;
 
 static var PuntuacionTotal = int;
+
+static var coins: int=0;
 
 function Start () {
 
@@ -26,6 +30,9 @@ function Start () {
 }
 
 function Update () {
+
+	monedas.guiText.text = "MONEDAS: "+coins.ToString();
+
 	Physics.gravity = Vector3(0, -20.0, 0);
 	if(transform.position.y == -2){
 	Morir();
@@ -137,5 +144,6 @@ function Puntuacion(){
 		puntos = puntos + 1.5;
 
 		puntosgui.guiText.text = "PUNTOS: "+puntos.ToString();
+		
 
 }
