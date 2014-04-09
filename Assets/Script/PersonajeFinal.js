@@ -3,9 +3,9 @@ public var monedas: GameObject;
 
 static var coins: int;
 
-var salto: boolean;
+static var salto: boolean;
 
-var doblesalto : boolean;
+static var doblesalto : boolean;
 
 var termina: Vector3;
 
@@ -37,7 +37,7 @@ function Start () {
 		
 		PuntuacionTotal=0;
 
-		//salto=true;
+		salto=true;
 
 		doblesalto=false;
 
@@ -59,7 +59,7 @@ function Update () {
 	Morir();
 	}
 
-	if(Input.GetButtonDown("Jump")&&salto==true) {
+	/*if(Input.GetButtonDown("Jump")&&salto==true) {
 		
 			Debug.Log("Salto");
 			
@@ -79,7 +79,7 @@ function Update () {
 	 	
 	 		doblesalto=false;
 	 	
-	 	}
+	 	}*/
  	
  		PintarLinea();
  	

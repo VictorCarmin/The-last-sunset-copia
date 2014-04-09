@@ -12,7 +12,7 @@ function Start () {
 
 function Update () {
 
-if(Input.GetButtonDown("Fire1")&&PersonajeFinal.carga==5){
+if(PersonajeFinal.carga==4){
 
 	PersonajeFinal.carga=4;
 	
@@ -22,9 +22,9 @@ if(Input.GetButtonDown("Fire1")&&PersonajeFinal.carga==5){
 	
 	} 
 else{
-	if(Input.GetButtonDown("Fire1")&&PersonajeFinal.carga==4){
+	if(PersonajeFinal.carga==3){
 
-	PersonajeFinal.carga=3;
+	
 	
 	Instantiate(bat3, transform.position, transform.rotation);
 	
@@ -34,9 +34,9 @@ else{
 
 	else{ 
 	
-		if(Input.GetButtonDown("Fire1")&&PersonajeFinal.carga==3){
+		if(PersonajeFinal.carga==2){
 
-		PersonajeFinal.carga=2;
+		
 		
 		Instantiate(bat2, transform.position, transform.rotation);
 		
@@ -46,9 +46,9 @@ else{
 		
 		else{
 	
-			if(Input.GetButtonDown("Fire1")&&PersonajeFinal.carga==2){
+			if(PersonajeFinal.carga==1){
 
-				PersonajeFinal.carga=1;
+			
 				
 				Instantiate(bat1, transform.position, transform.rotation);
 				
@@ -58,9 +58,9 @@ else{
 				
 				else{
 				
-					if(Input.GetButtonDown("Fire1")&&PersonajeFinal.carga==1){
+					if(PersonajeFinal.carga==0){
 
-						PersonajeFinal.carga=0;
+						
 						
 						Instantiate(bat0, transform.position, transform.rotation);
 						

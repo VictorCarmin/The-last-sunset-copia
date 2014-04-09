@@ -10,17 +10,17 @@ DestruirLaser();
 }
 
 function OnCollisionEnter(other:Collision){
-		Destroy(gameObject);
-		if(other.gameObject.name=="Cube"){
+		
+	if(other.gameObject.name=="Cube"){
 
 		Destroy(other.gameObject);
-		Destroy(gameObject);
 	}
+	Destroy(gameObject);
 
 }
 function DestruirLaser(){
 
-		if (transform.position.x>= 30){
+		if (transform.position.x>= 50){
 		
 		Destroy(gameObject);
 		
