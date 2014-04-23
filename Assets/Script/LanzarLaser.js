@@ -9,7 +9,7 @@
 	
 public function  Ignorar() {
 	
-		Physics.IgnoreCollision(disparotouch.aux.collider,transform.root.collider);
+		//Physics.IgnoreCollision(disparotouch.aux.collider,transform.root.collider);
 	
 	}
 

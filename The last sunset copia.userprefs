@@ -1,18 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/BateriaScript.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/LevelControllerNew.js">
     <Files>
       <File FileName="Assets/Script/GirarMoneda.js" Line="1" Column="1" />
       <File FileName="Assets/Script/plataforma.js" Line="1" Column="1" />
-      <File FileName="Assets/Script/LevelControllerNew.js" Line="1" Column="1" />
-      <File FileName="Assets/Script/Personaje.js" Line="1" Column="1" />
-      <File FileName="Assets/Script/PersonajeFinal.js" Line="62" Column="2" />
-      <File FileName="Assets/Script/Laser.js" Line="14" Column="2" />
-      <File FileName="Assets/Script/LanzarLaser.js" Line="12" Column="2" />
+      <File FileName="Assets/Script/LevelControllerNew.js" Line="18" Column="33" />
+      <File FileName="Assets/Script/PersonajeFinal.js" Line="161" Column="5" />
+      <File FileName="Assets/Script/LanzarLaser.js" Line="1" Column="1" />
       <File FileName="Assets/Script/Nupartida.js" Line="1" Column="1" />
-      <File FileName="Assets/Script/disparotouch.js" Line="24" Column="26" />
-      <File FileName="Assets/Script/saltotouch.js" Line="7" Column="21" />
-      <File FileName="Assets/Script/BateriaScript.js" Line="15" Column="4" />
+      <File FileName="Assets/Script/disparotouch.js" Line="4" Column="30" />
+      <File FileName="Assets/Script/saltotouch.js" Line="1" Column="1" />
+      <File FileName="Assets/Script/BateriaScript.js" Line="24" Column="6" />
+      <File FileName="Assets/Script/GranTouch.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

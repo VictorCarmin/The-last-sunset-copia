@@ -37,8 +37,6 @@ function Start () {
 		
 		PuntuacionTotal=0;
 
-		salto=true;
-
 		doblesalto=false;
 
 }
@@ -154,13 +152,24 @@ function OnCollisionEnter(other: Collision){
 		if( other.gameObject.name=="Enemigo"){
 	
 		Morir();
-	}
+		}
+	
+	//if( other.gameObject.name=="bateria"){
 		
+		//carga=5;
+		
+		//}
 }
 
 function OnTriggerEnter(other: Collider){
 	if( other.gameObject.name=="Coin"){
 		coins++;
+		}
+		
+	if( other.gameObject.name=="bateria"){
+		
+		carga=5;
+		Destroy(other.gameObject);
 		}
 }
 

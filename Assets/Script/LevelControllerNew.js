@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-public var plataformas= new GameObject[8];
+public var plataformas= new GameObject[10];
 public var frecuenciaPlataforma : float= 1.0;
 private var siguientePlataforma : float=0.0;
 var altura: int;
@@ -15,7 +15,7 @@ function FixedUpdate () {
 
 //	Debug.Log(Time.timeSinceLevelLoad);
 	
-	var random = Random.Range (0,8);
+	var random = Random.Range (0,10);
 	var plat : GameObject;
 	plat = plataformas[random];
 

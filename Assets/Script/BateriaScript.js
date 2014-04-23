@@ -12,64 +12,78 @@ function Start () {
 
 function Update () {
 
-if(PersonajeFinal.carga==4){
+if(PersonajeFinal.carga==5){
 
-	PersonajeFinal.carga=4;
+	PersonajeFinal.carga=5;
 	
-	Instantiate(bat4, transform.position, transform.rotation);
+	Instantiate(bat5, transform.position, transform.rotation);
 	
 	Destroy(gameObject);
 	
 	} 
 else{
-	if(PersonajeFinal.carga==3){
 
-	
-	
-	Instantiate(bat3, transform.position, transform.rotation);
-	
-	Destroy(gameObject);
-	
-	}
 
-	else{ 
-	
-		if(PersonajeFinal.carga==2){
 
+	if(PersonajeFinal.carga==4){
+
+		PersonajeFinal.carga=4;
 		
-		
-		Instantiate(bat2, transform.position, transform.rotation);
+		Instantiate(bat4, transform.position, transform.rotation);
 		
 		Destroy(gameObject);
 		
 		} 
+	else{
+		if(PersonajeFinal.carga==3){
+
 		
-		else{
-	
-			if(PersonajeFinal.carga==1){
+		
+		Instantiate(bat3, transform.position, transform.rotation);
+		
+		Destroy(gameObject);
+		
+		}
+
+		else{ 
+		
+			if(PersonajeFinal.carga==2){
 
 			
-				
-				Instantiate(bat1, transform.position, transform.rotation);
-				
-				Destroy(gameObject);
-				
-				} 
-				
-				else{
-				
-					if(PersonajeFinal.carga==0){
+			
+			Instantiate(bat2, transform.position, transform.rotation);
+			
+			Destroy(gameObject);
+			
+			} 
+			
+			else{
+		
+				if(PersonajeFinal.carga==1){
 
-						
-						
-						Instantiate(bat0, transform.position, transform.rotation);
-						
-						Destroy(gameObject);
-						
-						} 
+				
+					
+					Instantiate(bat1, transform.position, transform.rotation);
+					
+					Destroy(gameObject);
+					
+					} 
+					
+					else{
+					
+						if(PersonajeFinal.carga==0){
+
+							
+							
+							Instantiate(bat0, transform.position, transform.rotation);
+							
+							Destroy(gameObject);
+							
+							} 
+						}
 					}
 				}
 			}
-		}
 
+	}
 }
