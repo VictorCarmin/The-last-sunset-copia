@@ -145,14 +145,14 @@ function PintarLinea () {
 	}
 
 function OnCollisionEnter(other: Collision){
-
+		
 		salto=true;
 		
 		doblesalto=false;
 		
 	
-		if( other.gameObject.name=="Enemigo"){
-	
+		if( other.gameObject.name =="Enemigo"){
+	 Debug.Log("HAHAHHAHAH");
 		Morir();
 		}
 	
