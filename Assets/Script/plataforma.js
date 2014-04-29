@@ -8,7 +8,7 @@ haGenerado=false;
 
 function FixedUpdate () {
 
-	transform.Translate(-7.5*Time.deltaTime, 0, 0);
+	transform.Translate(-8*Time.deltaTime, 0, 0);
 	
 if(haGenerado==false){
 	if (transform.position.x<=0){

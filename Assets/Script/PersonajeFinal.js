@@ -11,6 +11,8 @@ var termina: Vector3;
 
 static var puntos: int;
 
+public var particulaMoneda : GameObject;
+
 public var puntosgui: GameObject;
 
 public var puntostot: GameObject;
@@ -164,6 +166,7 @@ function OnCollisionEnter(other: Collision){
 function OnTriggerEnter(other: Collider){
 	if( other.gameObject.name=="Coin"){
 		coins++;
+		Instantiate(particulaMoneda, other.transform.position, other.transform.rotation);
 		}
 		
 	if( other.gameObject.name=="bateria"){

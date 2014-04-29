@@ -30,9 +30,9 @@ function FixedUpdate () {
 		siguientePlataforma= Time.timeSinceLevelLoad+ frecuenciaPlataforma;
 	}	
 	var tiempoPlataforma = Random.Range (0,3);
-	if(tiempoPlataforma==0){frecuenciaPlataforma=1.5;}
+	if(tiempoPlataforma==0){frecuenciaPlataforma=1.7;}
 	if(tiempoPlataforma==1){frecuenciaPlataforma=1.75;}
-	if(tiempoPlataforma==2){frecuenciaPlataforma=2.0;}
+	if(tiempoPlataforma==2){frecuenciaPlataforma=1.8;}
 }
 
 function PosicionPlataforma (){
